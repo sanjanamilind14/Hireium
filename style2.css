@@ -1,0 +1,64 @@
+div.a{height: 150px; width: 950px;}
+div.a img{height: 150px; width: 150px;}
+
+div.menu{height: 100px; width: 1050px; margin-top: -140px;margin-left: 120px;float: left;}
+div.menu ul li{list-style-type: none; float: left; text-align: center; padding: 20px; font-family: Times New Roman; font-size: 22px;}
+.highlight{background-image: linear-gradient(to right, #f9989f, #fccb8f, #faf096); border-radius: 80px;}
+
+div.menu ul li a{border-radius: 80px;text-decoration: none;color: black; padding: 5px;text-align: center;}
+div.menu ul li a:hover{background-image: linear-gradient(to right,#B589D6, #FFB8DE, #FCE6F4);}
+
+div.social{height: 140px; width: 140px; margin-left: 1190px; margin-top: -130px;}
+div.social img{height: 50px; width: 50px;}
+
+div.headimage{height: 900px; width: 800px;}
+div.headimage img{height: 400px; width: 750px;}
+
+div.background{height: 450px; width: 420px; margin-top: -900px;margin-left: 900px; float: left;}
+div.background img{filter: alpha(opacity=50);opacity: 0.2;}
+
+div.tagline{margin-top: -380px; text-align: left; line-height: 100px;margin-left: -25px; display: flex;}
+
+p{margin-left: -40px;font-weight: bold;font-size: 35px; overflow: hidden; white-space: nowrap; animation: text 7s steps(21) infinite alternate; color: red; border-right: 1px solid black;}
+@keyframes text{
+            0%{width: 0ch;}
+           50%{width:25ch;}
+
+               }
+
+div.intro ul{width: 450px; height: 180px; margin-left: -110px;margin-top: -30px;}
+div.intro ul li p2{font-size: 22px;}
+div.intro ul li p3{font-size: 22px;}
+
+div.way{height: 500px; width: 100%; background-color: #A7C7E7; margin-top: -100px;}
+div.way h2{text-align: center; font-size: 35px; color: #000000; margin-top: -420px; font-family: Courier New;}
+div.way h3{text-align: center;margin-top: -40px; color: #000000; font-family: Courier New;} 
+
+.buttons{height:200px;width:100%; position:relative; margin-top:-300px;}
+.buttons ul{position:absolute;left:5%;top:25%;;transform: translate(-50%. -50%); display: flex; margin: 0; padding: 0;}
+.buttons ul li{list-style: none; margin: 0 5px;}
+.buttons ul li a span{padding: 0; margin: 0; position: absolute; top: 30px; color: #333; letter-spacing: 4px; transition: 0.5s;}
+.buttons ul li a{text-decoration: none; display: absolute; display: block; width: 210px; height: 80px; background-color: #fff; text-align: left; padding-left: 20px; transform: rotate(-30deg) skewX(25deg) translate(0,0); transition: 0.5s; box-shadow: -20px 20px 10px rgba(0,0,0,0.5)}
+.buttons ul li a:before{content: ''; position: absolute; top: 10px; left: -20px; height: 100%; width: 20px; background-color: #b1b1b1; transform: 0.5s; transform: rotate(0deg) skewY(-45deg);}
+.buttons ul li a:after{content: ''; position: absolute; bottom: -20px; left: -10px; height: 20px; width: 100%; background-color: #b1b1b1; transform: 0.5s; transform: rotate(0deg) skewX(-45deg);}
+.buttons ul li a:hover{transform: rotate(-30deg) skew(25deg) translate(20px; -15px); box-shadow: -50px 50px 50px rgba(0,0,0,0.5);}
+.buttons ul li:hover span{color: #fff;}
+.buttons ul li:hover a{background-color: #dd4b39;}
+.buttons ul li:hover  a:before{background: #b33a2b;}
+.buttons ul li:hover  a:after{background: #e66a5a;}
+    
+.reason{background-color: #0e1538; height: 500px; width: 600px; margin-top: 110px; position: relative;}
+.box{display: flex; justify-content: center; align-items: center;position: relative; width: 300px; height: 400px; background: rgba(0, 0, 0, 0.5); overflow: hidden; border-radius: 15px; margin-left: 125px; top: 70px;}
+.box:before{content: ''; position: absolute; width: 150px; height: 140%; background: linear-gradient(#00ccff, #d400d4); animation: animate 4s linear infinite;}
+.box:after{content: ''; position: absolute; background: #0e1538; inset: 4px; }
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.box h2{position: relative; color: #fff; font-size: 50px; z-index: 10; }
